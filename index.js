@@ -80,4 +80,8 @@ app.put("/blogs/:id", function(req, res){
   })
 });
 
+app.delete("/blogs/:id", function(req, res){
+  
+})
+
 app.listen(3005, () => console.log(`It's over Anakin. I have the high ground`));
